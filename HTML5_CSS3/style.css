@@ -1,9 +1,13 @@
 body {
-    background-color: gray;
+    background-color:whitesmoke;
+    width: 900px;
 }
 
 #title, .subtitle, .post_title {
-    color: blue;
+    color: gray;
+    font-size:40px;
+    font-style: italic;
+    text-transform: uppercase;
 }
 
 .post_title{
@@ -13,18 +17,41 @@ body {
     margin-bottom: 15px;
 }
 
+a{
+    text-decoration: line-through;
+    color: blueviolet;
+}
+
 .post{
     background-color: white;
     padding: 10px;
     border: 10px solid black;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .img_curso{
-    max-width:800px;
+    max-width:600px;
 }
 
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+
 }
+
+.avatar{
+    border-radius: 20px;
+}
+
+.text-list{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+}
+
+    .text-list li a {
+        color: blue;
+        text-decoration: none;
+    }
