@@ -1,7 +1,8 @@
 body {
     background-color:whitesmoke;
-    max-width: 600px;
+    max-width: 900px;
     margin:auto;
+    padding: 50px 10px 50px 10px;
 }
 
 #title, .subtitle, .post_title {
