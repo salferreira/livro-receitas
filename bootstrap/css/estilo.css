@@ -1,4 +1,19 @@
 body{
-    margin:0;
-    background-color: black;
+    background-color:black;
+    color: beige;
+    font-family:'Roboto';
 }
+
+.color-home{
+    font-color: blueviolet;
+}
+
+/* Section Quem Somos */
+.quem-somos{
+    background-color: aqua;
+    color: black;
+    padding-top: 50px;
+}
+    .img-somos{
+        padding: 50px 0 50px 0;
+    }
